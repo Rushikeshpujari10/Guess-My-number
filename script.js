@@ -22,7 +22,7 @@ document.querySelector('.check').addEventListener('click', function () {
     // When player wins
   } else if (guess === secretNumber) {
     displayMessage('🎉 Correct Number!');
-    document.querySelector('.number').textContent = secretNumber; // it print secrete number at ? 
+    document.querySelector('.number').textContent = secretNumber; //it print secrete number at ? 
    //for animation we change the colour and font 
     document.querySelector('body').style.backgroundColor = '#60b347';  
     document.querySelector('.number').style.width = '30rem';
